@@ -1,71 +1,85 @@
 
-#navbar {
-  width: 100%;
-  background-color: #333;
-  overflow: auto;
-}
+    #navbar {
+      width: 100%;
+      background-color: #333;
+      overflow: auto;
+    }
 
 
-#navbar a {
-  float: right;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+    #navbar a {
+      float: right;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
 
 
-#navbar a:hover {
-  background-color:#4CAF50;
-  color: black;
-}
+    #navbar a:hover {
+      background-color:#4CAF50;
+      color: black;
+    }
 
 
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
+    .active {
+      background-color: #4CAF50;
+      color: white;
+    }
 
-#titulo {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 50px;
-  color: rgb(221, 18, 221);
-  text-align: center;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    #titulo {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 50px;
+      color: rgb(221, 18, 221);
+      text-align: center;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 
-}
-
-
-#container {
-  text-align: center;
-}
-
-#paragraph {
-  font-family: 'Open Sans', sans-serif; 
-  font-size: 30px;
-  text-align: justify;
-}
+    }
 
 
+    #container {
+      text-align: center;
+    }
 
-#container {
-  width: 90%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
+    #paragraph {
+      font-family: 'Open Sans', sans-serif; 
+      font-size: 30px;
+      text-align: justify;
+    }
 
-.photo-space {
-  width: 30%;
-  height: 300px;
-  overflow: hidden;
-  margin: 20px;
-}
 
-.photo-space img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
+    #container {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .photo-space {
+      width: 30%;
+      height: 300px;
+      overflow: hidden;
+      margin: 20px;
+    }
+
+    .photo-space img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+    #texto {
+      display: flex;
+      margin:0 auto;
+      align-items: center;
+      font-size: 20px;
+    }
+    
+    #col1, #col2 {
+      width: 50%; 
+      padding: 10px;
+      border: 1px solid black;
+    }
+    

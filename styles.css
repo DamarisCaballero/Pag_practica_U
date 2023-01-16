@@ -1,0 +1,85 @@
+
+
+
+    .container{
+      display:grid;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 250px 600px;
+      grid-template-areas: 
+      "hd"
+      "sd"
+      "main"
+      "ft";
+      border: 2px solid rgb(69, 69, 23);
+    }
+
+    .nestedGrid{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 50% 50%;
+      grid-gap: 5px;
+      border: 3px solid rgb(5, 15, 164);
+    }
+
+    .photoBox{
+      width: 250px;
+      height: 150px;
+      border: 1px solid rgb(27, 6, 213);
+      background: rgb(86, 86, 7);
+    }
+
+    #one{
+      background-image: url(./assets/foto1.jpg);
+      background-size: contain;
+     
+    }
+
+    #two{
+      background-image: url(./assets/foto2.jpg);
+      background-size: contain;
+    }
+
+    #three{
+      background-image: url(./assets/foto3.jpg);
+      background-size: contain;
+    }
+
+    #four{
+      background-image: url(./assets/foto4.jpg);
+      background-size: contain;
+    }
+
+
+    .nestedGrid > *{
+      border: 2px solid aquamarine;
+    }
+    .box{
+        border: 1px solid red;
+        background: #F8FA9D;
+        }
+      .header{
+      
+        grid-area:hd;
+      }
+      .footer{
+        grid-area: ft;  
+      }
+      .sidebar{
+        grid-area: sd;
+      }
+      .content{
+        grid-area: main;
+      }
+
+    @media(min-width:900px) {
+    .container{
+          display:grid;
+          grid-template-columns: 300px 300px 300px;
+          grid-template-rows: 250px 600px;
+          grid-template-areas: 
+          "hd hd hd hd hd hd hd hd"
+          "sd sd main main main main main main"
+          "ft ft ft ft ft ft ft ft";
+          border: 2px solid red;
+        }
+      }

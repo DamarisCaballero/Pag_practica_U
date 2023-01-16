@@ -17,13 +17,13 @@
 
 
     #navbar a:hover {
-      background-color:#4CAF50;
+      background-color:#b62ef9;
       color: black;
     }
 
 
     .active {
-      background-color: #4CAF50;
+      background-color: #8b09e8;
       color: white;
     }
 
@@ -82,4 +82,33 @@
       padding: 10px;
       border: 1px solid black;
     }
+    
+
+    #container {
+      display: flex; 
+      flex-wrap: wrap; 
+    }
+
+    .photo-space{
+      flex:1; 
+      width: 25%; 
+    }
+    
+    a {
+      color: rgb(9, 8, 9); 
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 2em; 
+      text-align: center; 
+    }
+
+    footer {
+      background-color: rgb(171, 109, 183); 
+      color: rgb(7, 7, 7); 
+      text-align: center; 
+      padding: 20px; 
+    }
+    
+    
     

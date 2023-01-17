@@ -17,3 +17,144 @@ body {
     padding: 10px;
   }
   
+  .titulo-llamativo {
+    color: #070505; 
+    text-shadow: 2px 2px #c938f1; 
+    font-size: 3em; 
+    text-align: center; 
+    }
+  
+    .contenedor-principal {
+        display: flex; 
+        justify-content: space-between; 
+    }
+    
+    .columna-imagenes {
+        flex: 1; 
+        display: flex; 
+        flex-wrap: wrap; 
+    }
+    
+    .columna-imagenes img {
+        width: 45%;
+        margin-right: 10px; 
+    }
+    
+    .columna-texto {
+        flex: 1;
+        padding: 20px; 
+    }
+    
+    @media (max-width: 768px) {
+        .columna-imagenes img {
+            width: 100%; 
+            margin-right: 0; 
+        }
+        
+        .columna-texto {
+            padding: 10px; 
+        }
+        }
+      
+      
+      .textoDos {
+        color: #070707; 
+        text-shadow: 2px 2px #c938f1; 
+        font-size: 2em; 
+        text-align: center; 
+        }
+      
+        .contenedor-principal {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .columna-imagenes {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .columna-imagenes img {
+            width: 45%;
+            margin-right: 10px;
+        }
+        
+        .columna-texto {
+            flex: 1;
+            padding: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .columna-imagenes img {
+                width: 100%;
+                margin-right: 0;
+            }
+            .columna-texto {
+                padding: 10px;
+            }
+        }
+  /* footer */
+        footer {
+            background-color: rgb(210, 125, 246);
+            color: rgb(2, 2, 2);
+            padding: 20px 0;
+          }
+          
+          .contenedor-footer {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+          }
+          
+          .seccion-links,
+          .seccion-contacto,
+          .seccion-redes-sociales {
+            flex: 1;
+
+            h3 {
+              margin-bottom: 10px;
+               }
+
+            ul {
+              list-style: none;
+              margin: 0;
+              padding: 0;
+            
+            li {
+             a {
+                  color: #fff;
+                  text-decoration: none;
+             &:hover {
+                    color: #eee;
+             }
+             }
+             }
+             }
+             }
+          
+          @media (max-width: 768px) {
+            .seccion-contacto {
+              display: none;
+            }
+            footer {
+              flex-wrap: wrap;
+            }
+            .seccion-links, .seccion-redes-sociales {
+              flex: 100%;
+              text-align: center;
+              h3 {
+                margin-top: 20px;
+              }
+            }
+          }
+          
+        
+          
+         
+          
+           
+           
+  
+        
